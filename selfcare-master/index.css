@@ -1,0 +1,128 @@
+/*header*/
+.icon-star::before{
+
+}
+.svg-width{
+    width: 20px;
+}
+.icons svg{
+    margin: 0px 15px;
+    color: rgb(0, 196, 0);
+    cursor: pointer;
+}
+
+/*img-div*/
+
+#img-semicarr{
+    margin-top: 4rem;
+}
+.img-banner{
+    width: 100%;
+    object-fit: cover;
+}
+.promocao-div-p{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/*Cards*/
+#footer{
+    margin-top: 10rem;
+    padding: 4rem 0rem;
+    background-color: rgb(228, 228, 228);
+}
+.img-card{
+    object-fit: cover;
+    width: 65%;
+    height: 300px;
+    border-radius: 7px;
+}
+
+.card-container{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ul-padding{
+    margin-left: 4rem;
+}
+.ul-padding li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+form input{
+    width: 18rem;
+    height: 3rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-style: none;
+}
+
+.buttom-input{
+    color: white;
+    width: 8rem;
+    background-color: rgb(4, 209, 4);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-style: none;
+}
+.svg-width-footer{
+    width: 40px;
+}
+.svg-width-footer{
+    margin: 0px 1.5%;
+}
+
+.icons1{
+    margin-left: 4rem;
+}
+.icons2{
+    margin-right: 4rem;
+}
+mark{
+    color: green;
+    background-color: none!important;
+}
+
+/*footer*/
+
+@media (max-width:720px) {
+    .ul-padding {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 19px;
+        margin-right: auto;
+        padding: 0;
+    }
+}
+@media (max-width:426px) {
+    .div-mobile-form{
+        width: 100%;
+        flex-direction: column;
+    }
+    .mobile-none{
+        justify-content: unset!important;
+    }
+    .mobile-none form{
+        width: 100%;
+    }
+    .mobile-none form input{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .icons1{
+        margin: 0;
+    }
+    .icons2{
+        margin: 0;
+    }
+}
